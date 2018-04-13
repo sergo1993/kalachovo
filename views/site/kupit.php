@@ -103,7 +103,8 @@ $this->registerMetaTag([
                     </div>
                 </div>
                 <div class="img_add" style="display: none; width: 25%">
-                    <img style="margin-left: 65px; width: 230px; margin-top: 35px;" src="/web/images/reclama_vtoroi_variant.jpg" alt="Реклама">
+                    <a href="<?= Yii::$app->urlManager->createUrl('site/reklama'); ?>"><img style="margin-left: 65px; width: 230px; margin-top: 35px;" src="/web/images/reclama_vtoroi_variant.jpg" alt="Реклама"></a>
+                        <a href="<?= Yii::$app->urlManager->createUrl('site/reklama'); ?>"><img style="margin-left: 65px; width: 230px; margin-top: 35px;" src="/web/images/banner2.jpg" alt="Реклама"></a>
                 </div>
             </div>
             <div class="all-house-projects projects-container">
@@ -1176,7 +1177,8 @@ $this->registerMetaTag([
                         </div>
                     </div>
                     <div class="img_none" style="display: inline-block; width: 25%">
-                        <img style="margin-left: 65px; width: 230px; margin-top: 35px;" src="/web/images/reclama_vtoroi_variant.jpg" alt="Реклама">
+                        <a href="<?= Yii::$app->urlManager->createUrl('site/reklama'); ?>"><img style="margin-left: 65px; width: 230px; margin-top: 35px;" src="/web/images/reclama_vtoroi_variant.jpg" alt="Реклама"></a>
+                        <a href="<?= Yii::$app->urlManager->createUrl('site/reklama'); ?>"><img style="margin-left: 65px; width: 230px; margin-top: 35px;" src="/web/images/banner2.jpg" alt="Реклама"></a>
                     </div>
 
                     <div style="position: relative;
