@@ -1,0 +1,117 @@
+.mobile-menu li a, .mobile-menu ul .sub-nav li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 12px 20px;
+    margin-bottom: 1px
+}
+
+.mobile-menu-container {
+    display: none
+}
+
+.header .mobile-menu-switch, .mobile-menu, .mobile-menu-divider {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5b4f39;
+    text-align: center;
+    margin-bottom: 1px;
+    position: absolute;
+    padding: 12px 20px;
+    z-index: 9999999999;
+    top: 40px;
+    right: auto;
+    left: -5%;
+    width: 100%
+}
+
+.mobile-menu .close-nav-ico, .mobile-menu-switch {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    cursor: pointer
+}
+
+.mobile-menu-divider {
+    margin-top: 0;
+    left: 0
+}
+
+.mobile-menu-switch {
+    background: url('/web/images/mobile-nav-ico.png');
+    right: 0;
+    top: 13px
+}
+
+.mobile-menu li a {
+    display: block;
+    font-size: 20px;
+    line-height: 24px
+}
+
+.mobile-menu ul .sub-nav li a {
+    font-size: 14px
+}
+
+.mobile-menu .nav-item a, .mobile-menu li .nav-item .first, .mobile-menu ul .sub-nav li .nav-item .first a, .mobile-menu ul .sub-nav li .nav-item a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #FFF;
+    font-weight: 400;
+    padding: 12px 20px;
+    margin-bottom: 1px
+}
+
+.mobile-menu li.active a, .mobile-menu li.active ul li.active a, .mobile-menu li.active ul li.active ul li.active a {
+    text-align: center;
+    color: #FFF;
+    padding: 12px 20px;
+    margin-bottom: 1px
+}
+
+.mobile-menu .nav-item .active a, .mobile-menu li .nav-item .first .active a {
+    text-align: center;
+    color: #7c7260;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin-bottom: 1px
+}
+
+.mobile-menu li ul a {
+    font-size: 18px;
+    padding-left: 40px
+}
+
+.mobile-menu li ul ul .active, .mobile-menu li ul ul a {
+    font-size: 18px;
+    padding-left: 80px
+}
+
+.mobile-menu li ul ul .active {
+    color: #7c7260;
+    background: url(../img/background-mobile-nav.png) center 16px no-repeat
+}
+
+.mobile-menu .sub-nav li.nav-item.active, .mobile-menu .sub-nav li.nav-item.first.active, .mobile-menu .sub-nav li.nav-item.last.active {
+    color: #7c7260;
+    background-position: left -145px
+}
+
+.mobile-menu .nav-item.active, .mobile-menu .nav-item.first.active, .mobile-menu .nav-item.last.active {
+    background: url(../img/background-mobile-nav.png) center 16px no-repeat
+}
+
+.mobile-menu ul .sub-nav li .nav-item .active {
+    color: #7c7260;
+    background: 0 0
+}
+
+.mobile-menu-switch:hover .line {
+    background: #69bd4a
+}
+
+.mobile-menu .close-nav-ico {
+    background: url('/web/images/close-nav-ico.png') no-repeat;
+    top: 24px;
+    right: 30px
+}

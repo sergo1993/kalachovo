@@ -1,0 +1,1 @@
+<img src="/web/images/photki/kalachevo-derevnya-1.jpg" alt="Фото 1"/>

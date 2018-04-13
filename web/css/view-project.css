@@ -1,0 +1,354 @@
+                @font-face {
+            font-family: 'Wingdings';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Wingdings'), url('wingding.woff') format('woff');
+        }
+        ul.none-point{
+            list-style-type: none;
+        }
+        .page .main-content .text-info p.news2 {
+            margin-left: 20px;
+        }
+        
+        .page .main-content .text-info ul.news-lis-n li:before {
+            content: "•";
+            color: #e8aa6b;
+            margin-right: 5px;
+            font-size: 20px;
+            display: none;
+        }
+        
+        ul.news2 {
+            list-style: none;
+        }
+        
+        .page .main-content .text-info ul.news2 li {
+            margin-bottom: 5px;
+            margin-left: 20px;
+            font-size: 24px;
+            color: #804612;
+        }
+        
+        .page .main-content .text-info ul.news2 li:before {
+            content: "v";
+            color: #804612;
+            margin-right: 5px;
+            font-size: 20px;
+            font-family: "Wingdings";
+        }
+        
+        .page .main-content .text-info p.news3 {
+            margin-left: 20px;
+        }
+        
+        ul.news3 {
+            list-style: none;
+        }
+        
+        .page .main-content .text-info ul.news3 li {
+            margin-bottom: 5px;
+            margin-left: 20px;
+            font-size: 24px;
+            color: #804612;
+        }
+        
+        .page .main-content .text-info ul.news3 li:before {
+            content: '✔';
+            color: #804612;
+            margin-right: 5px;
+            font-size: 20px;
+        }
+        
+        .description {
+            float: none;
+        }
+        
+        .description5 {
+            float: left;
+        }
+        
+        .page .main-content .text-info h1 {
+            font-size: 39px;
+            color: #603813;
+            margin-bottom: 30px;
+        }
+        
+        .page .main-content .text-info h2 {
+            font-size: 36px;
+            color: #603813;
+            /* margin-bottom: 30px; */
+            margin-bottom: 0;
+        }
+        
+        .page .main-content .text-info ul.kupit {
+            margin-bottom: 5px;
+            font-size: 24px;
+            color: #804612;
+        }
+        
+        .page .main-content .text-info ul.kupit li:before {
+            content: "•";
+            color: #e8aa6b;
+            margin-left: 25px;
+            font-size: 20px;
+        }
+        /* p img{width:200px;height:auto;float:none;margin-right:24px;margin-left:0px;margin-bottom:60px;border-radius:15px;} */
+        
+        .main-nav>ul>.nav-item {
+            position: relative;
+            padding-top: 15px;
+            display: inline-block;
+            padding-bottom: 13px;
+        }
+        
+        .workemail {
+            display: none;
+        }
+        
+        img.news {
+            /*margin-right: 24px;*/
+            margin: 0 24px 80px 0;
+            border-radius: 15px;
+            border: 1px solid rgb(215, 215, 215);
+            float: left;
+            width: 300px;
+        }
+        
+        img.news-floatno {
+            width: 40%;
+            /*height: auto;*/
+            height: 200px;
+            margin: 0 10px;
+            /* max-width: 300px; */
+            width: 250px;
+        }
+        
+        strong {
+            font-weight: 700;
+            font-size: 24px;
+            color: #804612;
+        }
+        
+        .page .page-footer .created-by {
+            font-size: 20px;
+            float: left;
+            margin-top: 35px;
+            margin-left: 40px;
+            color: #804612;
+        }
+        
+        .projects-off {
+            width: 300px;
+            text-align: center;
+        }
+        
+        a.view {
+            background: #dbad54;
+            display: inline-block;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            font-size: 24px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 5px;
+        }
+        
+        a.view-general {
+            right: -740px;
+            float: none;
+            top: 380px;
+            position: relative;
+            background: #dbad54;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            font-size: 24px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 5px;
+        }
+        
+        a.view.other {
+            position: relative;
+            top: -50px;
+            float: right;
+            margin-right: 40px;
+        }
+        
+        .page .page-footer .projects-off {
+            font-size: 20px;
+            float: right;
+            width: 226px;
+            margin-top: -60px;
+            text-align: center;
+            color: #804612;
+        }
+        
+        a.itogi {
+            right: -570px;
+            float: none;
+            top: 450px;
+            position: relative;
+            background: green;
+            text-decoration: none;
+            outline: 0;
+            border: 0;
+            font-size: 24px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 40px;
+        }
+        
+        .slogan {
+            padding-top:530px;
+        }
+            @media only screen and (max-width: 1024px) {
+                a.view-general {
+                    position: relative;
+                    top: 0px;
+                    left: 90px;
+                }
+                a.itogi {
+                    right: -140px;
+                    float: none;
+                    top: 0px;
+                    position: relative;
+                    background: green;
+                    text-decoration: none;
+                    outline: 0;
+                    border: 0;
+                    font-size: 24px;
+                    color: #fff;
+                    border-radius: 5px;
+                    padding: 10px 40px;
+                }
+                .projects-off {
+                    width: 255px;
+                    text-align: center;
+                    margin-bottom: -140px; //margin-left:524px;float:right;margin-top:-50px;}
+                    .page-footer .social {
+                        margin-left: -60px;
+                    }
+                    .investment-project {
+                        margin-right: 230px;
+                    }
+                    .page .page-footer .social {
+                        margin-left: -90px;
+                    }
+                    .page .page-footer .investment-project {
+                        margin-left: 60px;
+                        float: left;
+                    }
+                    .page .page-footer .created-by {
+                        font-size: 20px;
+                        float: left;
+                        margin-left: -140px;
+                        margin-top: 35px;
+                        color: #804612;
+                    }
+                    img.news {
+                        margin-right: 24px;
+                        border-radius: 15px;
+                        border: 1px solid rgb(215, 215, 215);
+                        float: left;
+                        width: 300px;
+                    }
+                }
+                @media screen and (min-width:300px) and (max-width:768px) {
+                    .main-page .news {
+                        margin-bottom: 40px;
+                    }
+                    img.news {
+                        margin-right: 5px;
+                        border-radius: 15px;
+                        border: 1px solid rgb(215, 215, 215);
+                        float: left;
+                        display: block;
+                        width: 300px;
+                        min-width: 300px;
+                        max-width: 300px;
+                    }
+                    .projects-off {
+                        width: 255px;
+                        text-align: center;
+                        position: relative;
+                        top: 130px;
+                        left: -80px;
+                    }
+                    .investment-project {
+                        float: none;
+                        margin: 0 auto;
+                        position: relative;
+                        top: -154px;
+                    }
+                    .page-footer .social {
+                        margin: 0 auto;
+                        padding-top: 30px;
+                        position: relative;
+                        top: 70px;
+                    }
+                    .page .page-footer .social {
+                        margin: 0 auto;
+                        position: relative;
+                        top: 300px;
+                    }
+                    .page .page-footer .projects-off {
+                        font-size: 20px;
+                        float: none;
+                        margin: 0 auto;
+                        position: relative;
+                        width: 226px;
+                        top: -270px;
+                        text-align: center;
+                        color: #804612;
+                    }
+                    .page .page-footer .investment-project {
+                        float: none;
+                        margin: 0 auto;
+                        margin: 0 auto;
+                        position: relative;
+                        top: -300px;
+                    }
+                    a.view-general {
+                        position: relative;
+                        top: 0px;
+                        float: none;
+                        left: 0px;
+                    }
+                    a.view {
+                        position: relative;
+                        top: -40px;
+                    }
+                    a.view.other {
+                        position: relative;
+                        top: -340px;
+                        float: none;
+                        left: 140px;
+                    }
+                    .page .page-footer .projects-off.other {
+                        position: relative;
+                        top: -300px;
+                        left: 10px;
+                    }
+                    .page .page-footer .social.other {
+                        margin: 0 auto;
+                        position: relative;
+                        top: 200px;
+                    }
+                    a.itogi {
+                        float: right;
+                        top: -2503px;
+                        right: -5px;
+                        position: relative;
+                        background: green;
+                        text-decoration: none;
+                        outline: 0;
+                        border: 0;
+                        font-size: 24px;
+                        color: #fff;
+                        border-radius: 5px;
+                        padding: 10px 40px;
+                    }
+                }
